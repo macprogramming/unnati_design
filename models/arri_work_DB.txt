@@ -1,0 +1,230 @@
+Database creation
+
+1. Home Banner
+	
+	- title  (String)
+	- description (String)
+	- banner_id (Primary Key, INT, Auto Increment)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	- url (String)
+	- images (array of string)
+	
+2. The Timeless Art of Aari Work
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title  (String)
+	- description (String)
+	- images (array of string)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+
+3. The Timeless Art of Aari Work
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title  (String)
+	- description (String)
+	- icon
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+4. Signature Aari works styles
+
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- description (string)
+	- categories (array of string)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+5. Trending Fabric & Color Combinations
+
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- description (string)
+	- color (string)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+6. Learn Aari Embroidery
+
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- description (string)
+	- price (decimal)
+	- duration (date, string)
+	- features (Arrsy of string)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+7. 
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- description (string)
+	- icon (string)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+	
+8. Handcrafted Aari Products
+	- categories
+		- auto_id (Primary Key, INT, Auto Increment)
+		- title (String)
+		- description (string)
+		- created_at (DATETIME)
+		- updated_at (DATETIME)
+		- createdBy (String)
+		- updatedBy (String)
+		
+9. Products
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- description (string)
+	- images (Arrsy of String)
+	- ratings (Decimal)
+	- price (Decimal)
+	- totalRatings (INT)
+	- offers (boolean)
+	- upcomming (boolean)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+10. What Our Students Say
+
+	- auto_id (Primary Key, INT, Auto Increment)
+	- student_id (INT)
+	- student_firstName (String)
+	- student_lastName (String)
+	- student_middleName (String)
+	- image (String)
+	- feedback (String)
+	- ratings (Decimal)
+	- courseId (String)
+	- courseName (String)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+11. API -
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- totalCount (NUM)
+	- title (String)
+	
+12. Grow Your Aari Business
+	
+	- Monetization Strategies
+		
+		- auto_id (Primary Key, INT, Auto Increment)
+		- title (String)
+		- description (String)
+		- created_at (DATETIME)
+		- updated_at (DATETIME)
+		- createdBy (String)
+		- updatedBy (String)
+		
+	- E-commerce Setup
+	
+		- auto_id (Primary Key, INT, Auto Increment)
+		- title (String)
+		- description (String)
+		- created_at (DATETIME)
+		- updated_at (DATETIME)
+		- createdBy (String)
+		- updatedBy (String)
+		
+	- Future Expansion Plans
+		
+		- auto_id (Primary Key, INT, Auto Increment)
+		- title (Arrsy of String)
+		- created_at (DATETIME)
+		- updated_at (DATETIME)
+		- createdBy (String)
+		- updatedBy (String)
+		
+13. Get In Touch
+	
+	- Address
+	
+		- auto_id (Primary Key, INT, Auto Increment)
+		- studio_id (Primary Key, INT, Auto Increment)
+		- address (String)
+		- mobile (NUM)
+		- phone (NUM)
+		- primaryEmail (String)
+		- secondaryEmail (String)
+		- workinghours (Sting)
+		- holiday (Sting)
+		- created_at (DATETIME)
+		- updated_at (DATETIME)
+		- createdBy (String)
+		- updatedBy (String)
+		
+14. Social Media Link
+
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (Sting)
+	- icon (String)
+	- url (String)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+
+
+15. Send Us a Message
+
+	- auto_id (Primary Key, INT, Auto Increment)
+	- name (String)
+	- email (String)
+	- subject (Sting)
+	- message (String)
+	- created_at (DATETIME)
+	- createdBy (String)
+	
+16. Quick Links
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- url (String)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+17. Courses
+	
+	- auto_id (Primary Key, INT, Auto Increment)
+	- title (String)
+	- url (String)
+	- created_at (DATETIME)
+	- updated_at (DATETIME)
+	- createdBy (String)
+	- updatedBy (String)
+	
+18. Privacy Policy
+
+19. Terms of Service
+
+20. Shipping Policy
+
+
+	
